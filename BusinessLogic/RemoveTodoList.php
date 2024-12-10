@@ -3,7 +3,7 @@
 /**
  * Menghapus todo di list
  */
-function removeTodoList(int $number) {
+function removeTodoList(int $number): bool {
     global $todoList;
 
     if ($number > sizeof($todoList)) {

@@ -1,7 +1,7 @@
 <?php
 
-require_once "../helper/input.php";
-require_once "../BusinessLogic/RemoveTodoList.php";
+require_once __DIR__ . "../helper/input.php";
+require_once __DIR__ . "../BusinessLogic/RemoveTodoList.php";
 
 function ViewRemoveTodoList() {
     echo "MENGHAPUS TODO" . PHP_EOL;
