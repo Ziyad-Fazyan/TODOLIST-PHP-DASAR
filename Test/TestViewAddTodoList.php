@@ -8,7 +8,7 @@ addTodoList("Belajar PHP");
 addTodoList("Belajar MySql");
 addTodoList("Belajar Laravel");
 
-ViewAddTodoList();
+viewAddTodoList();
 
 showTodoList();
 
